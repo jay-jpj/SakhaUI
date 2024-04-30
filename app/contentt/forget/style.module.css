@@ -1,0 +1,59 @@
+.input{
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+         -webkit-appearance: none;
+         margin: 0;
+      }
+
+.outermost{
+    color: #5F259E;
+    font-size: 1rem;
+    text-align: center;
+    
+}
+
+.i{
+    height: 35px;
+    width: 50%;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+.botp{
+    margin-left: 30px;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #5F259E;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.i::placeholder{
+    color: #5F259E;
+    font-size: 1.2rem;
+}
+
+#mark{
+    margin-left: 20px;
+}
+.votp{
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: #5F259E;
+    color: white;
+    font-size: 1.3rem;
+    margin-top: 30px;
+}
+
+.lab{
+    font-size: 1.7rem;
+    font-style: bold;
+}

@@ -1,0 +1,51 @@
+.outer33{
+    display: flex;
+    font-size: 1.2rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+::placeholder{
+    color: #5F259E;
+    font-size: 1rem;
+}
+button{
+    background-color: #5F259E;
+    color: white;
+    width: 40%;
+    height: 57px;
+    border-radius: 10px;
+    font-size: xx-large;
+    margin-top: 10px;
+}
+input{
+    width: 90%;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: larger;
+}
+.inner22{
+    text-align: center;
+    width: 500px;
+    color: #5F259E;
+}
+.inner11{
+    width: 500px;
+}
+.f1{
+    position: relative;
+    float: right;
+    color: red;
+}
+Link{
+    color: #5F259E;
+}
+.liforgor{
+    color: red;
+    text-decoration: none;
+}
+
+.ss1{
+    margin-top: 20px;
+}

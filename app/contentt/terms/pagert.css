@@ -1,0 +1,14 @@
+h2{
+    color: #5F259E;
+    font-size: 2rem;
+}
+.outerterm{
+    text-align: center;
+}
+p{
+    font-size: 1.4rem;
+    color: black;
+}
+.li{
+    float: left;
+}

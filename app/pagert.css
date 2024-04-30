@@ -1,0 +1,129 @@
+.inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+
+}
+.textcont h1{
+    font-size: 3rem;
+    color: #5F259E;
+}
+.textcont{
+    text-align: center;
+    
+}
+button{
+    width: 40%;
+    height: 40px;
+    font-size: 1.7rem;
+    border-radius: 15px;
+}
+.o1{
+    font-size: 2rem;
+    color: black;
+}
+.b1{
+    background-image: linear-gradient(#7A00FF,#FF00C4);
+}
+.b2{
+    background-image: linear-gradient(#5F259E,#00C2FF);
+}
+
+.s1{
+    background: linear-gradient(#0095FF,#FF00C7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.s2{
+    background: linear-gradient(#FF00E5,#00E0FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.s3{
+    background: linear-gradient(to bottom right,#FF8A00,#FF0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+.outerbox{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../public/Ellipse.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width : 950px){
+    .outerbox{
+        background-image: none;
+    }
+}
+
+/*
+.inner{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.textcont h1{
+    font-size: 3rem;
+    color: #5F259E;
+}
+.textcont{
+    text-align: center;
+    position: relative;
+    top: 70px;
+    left: 200px;
+}
+button{
+    width: 151px;
+    height: 64px;
+    font-size: 1.7rem;
+    border-radius: 15px;
+}
+.o1{
+    font-size: 2rem;
+    color: black;
+}
+.b1{
+    background-image: linear-gradient(#7A00FF,#FF00C4);
+}
+.b2{
+    background-image: linear-gradient(#5F259E,#00C2FF);
+}
+
+.s1{
+    background: linear-gradient(#0095FF,#FF00C7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.s2{
+    background: linear-gradient(#FF00E5,#00E0FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.s3{
+    background: linear-gradient(to bottom right,#FF8A00,#FF0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+.outerbox{
+    display: flex;
+    height: 100vh;
+    background-image: url(../public/Ellipse.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+*/
